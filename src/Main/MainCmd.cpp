@@ -76,7 +76,6 @@ int main( int argc, char ** argv )
     App::Application::Config()["ExeName"] = "MakaCAD";
     App::Application::Config()["ExeVendor"] = "MakaCAD";
     App::Application::Config()["AppDataSkipVendor"] = "true";
-    Q_INIT_RESOURCE(MakaCAD);
     // set the banner (for logging and console)
     App::Application::Config()["CopyrightInfo"] = sBanner;
 
