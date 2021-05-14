@@ -1,0 +1,136 @@
+* [33m6c6f5e7fb[m[33m ([m[1;36mHEAD -> [m[1;32mtest[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Sketch: Fix exception on redraw
+* [33m51189caba[m Sketcher: Fix equality constraint command
+* [33me8674fc13[m Sketcher: Fix crash on applying angle constraint on arc
+*   [33mc158e640d[m Merge pull request #4025 from travisapple/master
+[32m|[m[33m\[m  
+[32m|[m *   [33m6d065963d[m Merge branch 'master' into master
+[32m|[m [34m|[m[35m\[m  
+[32m|[m * [35m|[m [33m65595c1b2[m Update importWebGL.py
+[32m|[m * [35m|[m [33m9b1a8d6d6[m Update importWebGL.py
+[32m|[m * [35m|[m [33m061c3f8fb[m Update importWebGL.py
+[32m|[m * [35m|[m [33m1f70e1b44[m Update importWebGL.py
+[32m|[m * [35m|[m [33m4633e6e03[m Update importWebGL.py
+[32m|[m * [35m|[m [33mc419371b5[m New WebGL Exporter
+* [35m|[m [35m|[m   [33mf23ed3b17[m Merge pull request #4148 from mroote/update_fcinfo_py3
+[36m|[m[1;31m\[m [35m\[m [35m\[m  
+[36m|[m * [35m|[m [35m|[m [33mcefd6b2ce[m Update fcinfo script for py3 compatibility
+* [1;31m|[m [35m|[m [35m|[m [33mfc9be2134[m Path: [skip ci] fix TooltablePy::getTools to avoid possible double destruction of a Tool instance
+[1;31m|[m[1;31m/[m [35m/[m [35m/[m  
+* [35m|[m [35m|[m [33me672aa26b[m Draft: Small layer improvements - Added 'Print Line Color' property - Added 'Add new layer' context menu action to layers group
+* [35m|[m [35m|[m [33m8e223cdf5[m Draft: Small wording fix
+* [35m|[m [35m|[m [33mbc4856672[m Draft: Small fixes to Draft SetStyle panel
+* [35m|[m [35m|[m   [33mb920bbf73[m Merge pull request #4143 from mlampert/bugfix/vcarve-depth
+[35m|[m[1;33m\[m [35m\[m [35m\[m  
+[35m|[m [1;33m|[m[35m_[m[35m|[m[35m/[m  
+[35m|[m[35m/[m[1;33m|[m [35m|[m   
+[35m|[m * [35m|[m [33mee92a1d2f[m Adding g0 to safety to base op so it's applied to all ops
+[35m|[m * [35m|[m [33med7be8674[m meld h and v speeds for v-carve commands depending on incline
+[35m|[m * [35m|[m [33m6176ed3e0[m Fixed tool-bit shapes when diameter == shank diameter.
+[35m|[m * [35m|[m [33m1511fae5f[m Consistent TC naming/labeling, regardless of how created.
+[35m|[m * [35m|[m [33m70364c027[m Fixed thread-milling icon reference.
+[35m|[m * [35m|[m [33mc955bf4a4[m Fixed v-carve depth calculation in the presence of a bottom diameter, added unit tests and cleaned up the v-bit parameter naming.
+* [1;33m|[m [35m|[m   [33m07e2e8fcf[m Merge pull request #4141 from gauna85/PathToolcontroller
+[1;34m|[m[1;35m\[m [1;33m\[m [35m\[m  
+[1;34m|[m * [1;33m\[m [35m\[m   [33madd350c6b[m Merge branch 'master' into PathToolcontroller
+[1;34m|[m [1;36m|[m[1;33m\[m [1;33m\[m [35m\[m  
+[1;34m|[m [1;36m|[m [1;33m|[m[1;33m/[m [35m/[m  
+[1;34m|[m * [1;33m|[m [35m|[m [33ma7edfcf1c[m Path: Added missing signl-connection causing spindle speed not to be updated using ToolControllerDlg
+* [31m|[m [1;33m|[m [35m|[m   [33m3a0761313[m Merge pull request #4136 from gauna85/PathEngrave
+[32m|[m[33m\[m [31m\[m [1;33m\[m [35m\[m  
+[32m|[m * [31m\[m [1;33m\[m [35m\[m   [33m864ea59b9[m Merge branch 'master' into PathEngrave
+[32m|[m [34m|[m[1;33m\[m [31m\[m [1;33m\[m [35m\[m  
+[32m|[m [34m|[m [1;33m|[m [31m|[m[1;33m/[m [35m/[m  
+[32m|[m [34m|[m [1;33m|[m[1;33m/[m[31m|[m [35m|[m   
+[32m|[m * [1;33m|[m [31m|[m [35m|[m [33me7085cb47[m Path: Sort edges before splitting at selected vertex
+[32m|[m [31m|[m [1;33m|[m[31m/[m [35m/[m  
+[32m|[m [31m|[m[31m/[m[1;33m|[m [35m|[m   
+* [31m|[m [1;33m|[m [35m|[m   [33mb6a83cbeb[m Merge pull request #4132 from gauna85/Path
+[36m|[m[1;31m\[m [31m\[m [1;33m\[m [35m\[m  
+[36m|[m * [31m\[m [1;33m\[m [35m\[m   [33m5bafaac60[m Merge branch 'master' into Path
+[36m|[m [1;32m|[m[1;33m\[m [31m\[m [1;33m\[m [35m\[m  
+[36m|[m [1;32m|[m [1;33m|[m [31m|[m[1;33m/[m [35m/[m  
+[36m|[m [1;32m|[m [1;33m|[m[1;33m/[m[31m|[m [35m|[m   
+[36m|[m * [1;33m|[m [31m|[m [35m|[m [33m4ad41c96d[m Path: Check if startpoint is not lower than bounds in order to work always from top to bottom
+[36m|[m [31m|[m [1;33m|[m[31m/[m [35m/[m  
+[36m|[m [31m|[m[31m/[m[1;33m|[m [35m|[m   
+* [31m|[m [1;33m|[m [35m|[m [33m9b39c6784[m Path: [skip ci] fix memory leak in TooltablePy::getTools() For some background information see: https://forum.freecadweb.org/viewtopic.php?f=15&t=50583&start=20#p457516
+* [31m|[m [1;33m|[m [35m|[m [33m0a35cb5b0[m Part: improve TopoShape::findPlane()
+* [31m|[m [1;33m|[m [35m|[m [33mc25ff3ac1[m Draft: Hide undo button from modify operations
+* [31m|[m [1;33m|[m [35m|[m   [33m0e556a082[m Merge pull request #4121 from everlanes/TechDraw_Segfault
+[1;34m|[m[1;35m\[m [31m\[m [1;33m\[m [35m\[m  
+[1;34m|[m * [31m|[m [1;33m|[m [35m|[m [33ma6e29e32a[m Check return value of getMDIViewPage() a second time
+* [1;35m|[m [31m|[m [1;33m|[m [35m|[m   [33mfe721a193[m Merge pull request #4116 from chennes/fixAirfoilImportNumberRegex
+[1;36m|[m[31m\[m [1;35m\[m [31m\[m [1;33m\[m [35m\[m  
+[1;36m|[m * [1;35m\[m [31m\[m [1;33m\[m [35m\[m   [33m50d97a3f2[m Merge branch 'master' into fixAirfoilImportNumberRegex
+[1;36m|[m [32m|[m[1;33m\[m [1;35m\[m [31m\[m [1;33m\[m [35m\[m  
+[1;36m|[m [32m|[m [1;33m|[m [1;35m|[m[1;33m_[m[31m|[m[1;33m/[m [35m/[m  
+[1;36m|[m [32m|[m [1;33m|[m[1;33m/[m[1;35m|[m [31m|[m [35m|[m   
+[1;36m|[m * [1;33m|[m [1;35m|[m [31m|[m [35m|[m   [33mb8ce1a7c0[m Merge branch 'master' into fixAirfoilImportNumberRegex
+[1;36m|[m [34m|[m[35m\[m [1;33m\[m [1;35m\[m [31m\[m [35m\[m  
+[1;36m|[m * [35m\[m [1;33m\[m [1;35m\[m [31m\[m [35m\[m   [33m942751898[m Merge branch 'master' into fixAirfoilImportNumberRegex
+[1;36m|[m [36m|[m[1;31m\[m [35m\[m [1;33m\[m [1;35m\[m [31m\[m [35m\[m  
+[1;36m|[m * [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m [33m4f96e3c56[m Add support for integer values.
+[1;36m|[m * [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m   [33m5e692d191[m Merge branch 'master' into fixAirfoilImportNumberRegex
+[1;36m|[m [1;32m|[m[1;33m\[m [1;31m\[m [35m\[m [1;33m\[m [1;35m\[m [31m\[m [35m\[m  
+[1;36m|[m * [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m [33mccc4e5cd2[m [Draft] Fix airfoil data detection regex
+* [1;33m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m   [33mdd580a49a[m Merge pull request #4115 from JAndersM/patch-1
+[1;34m|[m[1;35m\[m [1;33m\[m [1;33m\[m [1;31m\[m [35m\[m [1;33m\[m [1;35m\[m [31m\[m [35m\[m  
+[1;34m|[m * [1;33m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m [33m8620d77bc[m Update task_scale.py
+[1;34m|[m [1;33m|[m [1;33m|[m[1;33m/[m [1;31m/[m [35m/[m [1;33m/[m [1;35m/[m [31m/[m [35m/[m  
+[1;34m|[m [1;33m|[m[1;33m/[m[1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m   
+* [1;33m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m   [33mcbcf45a4b[m Merge pull request #4109 from donovaly/TD-dimensioning-fix
+[1;36m|[m[31m\[m [1;33m\[m [1;33m\[m [1;31m\[m [35m\[m [1;33m\[m [1;35m\[m [31m\[m [35m\[m  
+[1;36m|[m * [1;33m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m [33m38734f4f8[m [TD] treat dimensions the same way, no matter if with unit or not
+* [31m|[m [1;33m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m   [33m115963d79[m Merge pull request #4100 from marioalexis84/draft-upgrade
+[32m|[m[33m\[m [31m\[m [1;33m\[m [1;33m\[m [1;31m\[m [35m\[m [1;33m\[m [1;35m\[m [31m\[m [35m\[m  
+[32m|[m * [31m|[m [1;33m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m [33mc9d1d0c46[m Draft: Improve makeWires in upgrade function
+* [33m|[m [31m|[m [1;33m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m   [33m46a6ea335[m Merge pull request #4069 from aapo-aapo/TD-Balloon-improvements
+[34m|[m[35m\[m [33m\[m [31m\[m [1;33m\[m [1;33m\[m [1;31m\[m [35m\[m [1;33m\[m [1;35m\[m [31m\[m [35m\[m  
+[34m|[m * [33m|[m [31m|[m [1;33m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m [33m3d85114f0[m [TD] Add a comment about QGIViewBalloon.cpp draw() function needing refactoring.
+[34m|[m * [33m|[m [31m|[m [1;33m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m [33mc39ede3b5[m [TD] Add Balloon property LineVisible for making the Balloon line visible or hidden.
+[34m|[m * [33m|[m [31m|[m [1;33m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m [33m438169b33[m [TD] Add Balloon property EndTypeScale for scaling line end decorations (arrows etc).
+[34m|[m [1;33m|[m [33m|[m[1;33m_[m[31m|[m[1;33m/[m [1;33m/[m [1;31m/[m [35m/[m [1;33m/[m [1;35m/[m [31m/[m [35m/[m  
+[34m|[m [1;33m|[m[1;33m/[m[33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m   
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m   [33m6e88f4088[m Merge pull request #4137 from abdullahtahiriyo/_arc_fix
+[36m|[m[1;31m\[m [1;33m\[m [33m\[m [31m\[m [1;33m\[m [1;31m\[m [35m\[m [1;33m\[m [1;35m\[m [31m\[m [35m\[m  
+[36m|[m * [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [31m|[m [35m|[m [33m2386df93a[m Arch: Make ArchWall use Sketcher GeometryFacade
+[36m|[m [31m|[m [1;33m|[m[31m_[m[33m|[m[31m_[m[31m|[m[31m_[m[1;33m|[m[31m_[m[1;31m|[m[31m_[m[35m|[m[31m_[m[1;33m|[m[31m_[m[1;35m|[m[31m/[m [35m/[m  
+[36m|[m [31m|[m[31m/[m[1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [35m|[m   
+* [31m|[m [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;33m|[m [1;35m|[m [35m|[m [33m6575023f5[m Tools: [skip ci] extend doc string of FreeCAD thumbnailer
+[1;33m|[m [31m|[m[1;33m_[m[1;33m|[m[1;33m_[m[33m|[m[1;33m_[m[31m|[m[1;33m_[m[1;33m|[m[1;33m_[m[1;31m|[m[1;33m_[m[35m|[m[1;33m/[m [1;35m/[m [35m/[m  
+[1;33m|[m[1;33m/[m[31m|[m [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m   
+* [31m|[m [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33m68eba58e6[m Mesh: Uniformity fixes [skip ci]
+* [31m|[m [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33mddbd7696c[m Py: [skip ci] replace PyList_Append with Py::List::append
+* [31m|[m [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33ma152cd2d9[m Py: [skip ci] replace PyList_Append with Py::List::append
+* [31m|[m [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33maec9d5f07[m Py: fix memory leaks by incorrect use of PyList_Append
+[31m|[m[31m/[m [1;33m/[m [33m/[m [31m/[m [1;33m/[m [1;31m/[m [35m/[m [1;35m/[m [35m/[m  
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33m512d5c614[m Sketcher: Ensure that ViewProvider Geometry extensions is correctly initialised
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33m3f6fed377[m Sketcher: refactor unnecessary dir/angle conversion
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33mc2108911d[m Sketcher: ViewProvider fix Weight length when dragging
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33ma9605dc46[m CMake: [skip ci] use FILTER of list command only for v3.6 or later
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33mc4b1ec01b[m Main: fix header uniformity + trailing whitespace
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33mcb58706e8[m Fix various typos [skip ci]
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33mbe11a92f4[m PD: [skip ci] in wizard shaft handle case where Plot module is not available
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33m1bc39542d[m Part: [skip ci] support of keywords in Part.GeometrySurface.toBSpline()
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33mf5f349fac[m Part:Surface.toBSpline use OCC MaxDegree instead of fixed value.
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33m75a2f471e[m Part: update GeomSurface.toBSpline doc
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33me7c06e848[m Part: add default values to GeomSurface.toBSpline()
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33m5f37274ce[m [Web] Close stale file handle in exec()
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33m528f0cbdd[m Fix fedora COPR builds
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33m2a8c1271d[m Draft: fix header uniformity + trailing whitespace
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33m4a8fac914[m Part: [skip ci] fix memory leaks + add convenience function GeometryExtension::copyPyObject() + make sure to destroy the clone when leaving getGeometry()
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [35m|[m [1;35m|[m [35m|[m [33mea3ecf405[m Silence Qt/Windows setGeometry Warning
+[35m|[m [1;33m|[m[35m_[m[33m|[m[35m_[m[31m|[m[35m_[m[1;33m|[m[35m_[m[1;31m|[m[35m/[m [1;35m/[m [35m/[m  
+[35m|[m[35m/[m[1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [1;35m|[m [35m|[m   
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [1;35m|[m [35m|[m [33m9add3ba19[m Sketcher/Part: Python handling of GeometryExtensions without a Python counterpart
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [1;35m|[m [35m|[m [33m40c0f0aa0[m Sketcher: refactor onDocumentRestored()
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [1;35m|[m [35m|[m [33mf33aab5f5[m Sketcher: Reduce ViewProviderUpdates when deleting Internal Alignment Geometry
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [1;35m|[m [35m|[m [33m4aa91f0f2[m Sketcher: SketchGeometryExtension - Do not store ID
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [1;35m|[m [35m|[m [33m2c0faabb6[m Sketcher: GeometryFacade - Remove Debuging code
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [1;35m|[m [35m|[m [33mc08d4d9df[m Sketcher: ExternalGeometryFacadePy Python interface
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [1;35m|[m [35m|[m [33m51eb55081[m Sketcher: GeometryFacadePy - testGeometryMode Python interface
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [1;35m|[m [35m|[m [33mcfd5cfd6c[m Sketcher: SketchGeometryExtensionPy getConstruction from extension
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [1;35m|[m [35m|[m [33m11d4d6c18[m Part/Sketcher: GeometryExtension/GeometryPersistentExtension split
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [1;35m|[m [35m|[m [33m4e199bd23[m Sketcher: Fix construction migration
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|[m [1;35m|[m [35m|[m [33ma624a35af[m Sketcher - Construction Migration - step 4: Migration function from legacy construction geometry to extension
+* [1;33m|[m [33m|[m [31m|[m [1;33m|[m [1;31m|
