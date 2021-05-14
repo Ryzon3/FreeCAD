@@ -73,10 +73,10 @@ int main( int argc, char ** argv )
     setlocale(LC_NUMERIC, "C");
 
     // Name and Version of the Application
-    App::Application::Config()["ExeName"] = "FreeCAD";
-    App::Application::Config()["ExeVendor"] = "FreeCAD";
+    App::Application::Config()["ExeName"] = "MakaCAD";
+    App::Application::Config()["ExeVendor"] = "MakaCAD";
     App::Application::Config()["AppDataSkipVendor"] = "true";
-
+    Q_INIT_RESOURCE(MakaCAD);
     // set the banner (for logging and console)
     App::Application::Config()["CopyrightInfo"] = sBanner;
 

@@ -2,13 +2,13 @@
 <Branding>
 <!-- This is a full list of all elements for the branding. They are all optional.-->
 <!-- This file must be put into the directory where the application is installed -->
-    <Application>Application</Application>
-    <BuildVersionMajor>1</BuildVersionMajor>
-    <BuildVersionMinor>0</BuildVersionMinor>
-    <BuildRevision>2000</BuildRevision>
+    <Application>MakaCAD</Application>
+    <BuildVersionMajor></BuildVersionMajor>
+    <BuildVersionMinor>1</BuildVersionMinor>
+    <BuildRevision>2021</BuildRevision>
     <WindowTitle>My Application with some text</WindowTitle>
     <CopyrightInfo>My copyright notice</CopyrightInfo>
-    <MaintainerUrl>http://www.something.com</MaintainerUrl>
+    <MaintainerUrl>https://makacademy.net/</MaintainerUrl>
     <StartWorkbench>PartWorkbench</StartWorkbench>
 <!--
     <WindowIcon>Path to icon file</WindowIcon>
