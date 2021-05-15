@@ -84,6 +84,7 @@ SET(PathScripts_SRCS
     PathScripts/PathPost.py
     PathScripts/PathPostProcessor.py
     PathScripts/PathPreferences.py
+    PathScripts/PathPreferencesAdvanced.py
     PathScripts/PathPreferencesPathDressup.py
     PathScripts/PathPreferencesPathJob.py
     PathScripts/PathProbe.py
@@ -96,6 +97,10 @@ SET(PathScripts_SRCS
     PathScripts/PathProfileFaces.py
     PathScripts/PathProfileFacesGui.py
     PathScripts/PathProfileGui.py
+    PathScripts/PathProperty.py
+    PathScripts/PathPropertyBag.py
+    PathScripts/PathPropertyBagGui.py
+    PathScripts/PathPropertyEditor.py
     PathScripts/PathSanity.py
     PathScripts/PathSelection.py
     PathScripts/PathSetupSheet.py
@@ -140,6 +145,7 @@ SET(PathScripts_post_SRCS
     PathScripts/post/centroid_post.py
     PathScripts/post/comparams_post.py
     PathScripts/post/dynapath_post.py
+    PathScripts/post/dxf_post.py
     PathScripts/post/example_pre.py
     PathScripts/post/gcode_pre.py
     PathScripts/post/grbl_post.py
@@ -153,17 +159,19 @@ SET(PathScripts_post_SRCS
     PathScripts/post/rml_post.py
     PathScripts/post/slic3r_pre.py
     PathScripts/post/smoothie_post.py
+    PathScripts/post/uccnc_post.py
 )
 
 SET(Tools_Bit_SRCS
     Tools/Bit/45degree_chamfer.fctb
+    Tools/Bit/5mm-thread-cutter.fctb
     Tools/Bit/5mm_Drill.fctb
     Tools/Bit/5mm_Endmill.fctb
     Tools/Bit/60degree_Vbit.fctb
     Tools/Bit/6mm_Ball_End.fctb
     Tools/Bit/6mm_Bullnose.fctb
-    Tools/Bit/slittingsaw.fctb
     Tools/Bit/probe.fctb
+    Tools/Bit/slittingsaw.fctb
 )
 
 SET(Tools_Library_SRCS
@@ -196,6 +204,7 @@ SET(PathTests_SRCS
     PathTests/TestPathOpTools.py
     PathTests/TestPathPost.py
     PathTests/TestPathPreferences.py
+    PathTests/TestPathPropertyBag.py
     PathTests/TestPathSetupSheet.py
     PathTests/TestPathStock.py
     PathTests/TestPathThreadMilling.py
@@ -206,6 +215,9 @@ SET(PathTests_SRCS
     PathTests/TestPathUtil.py
     PathTests/TestPathVcarve.py
     PathTests/TestPathVoronoi.py
+    PathTests/Tools/Bit/test-path-tool-bit-bit-00.fctb
+    PathTests/Tools/Library/test-path-tool-bit-library-00.fctl
+    PathTests/Tools/Shape/test-path-tool-bit-shape-00.fcstd
     PathTests/boxtest.fcstd
     PathTests/test_centroid_00.ngc
     PathTests/test_geomop.fcstd
@@ -276,6 +288,14 @@ INSTALL(
     DESTINATION
         Mod/Path/PathTests
 )
+
+INSTALL(
+  DIRECTORY
+      PathTests/Tools
+  DESTINATION
+        Mod/Path/PathTests
+)
+      
 
 INSTALL(
     FILES
